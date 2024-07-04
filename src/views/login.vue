@@ -1,7 +1,7 @@
 <template>
   <div class="login">
     <el-form ref="loginForm" :model="loginForm" :rules="loginRules" class="login-form">
-      <h3 class="title">若依后台管理系统</h3>
+      <h3 class="title">后台管理系统</h3>
       <el-form-item prop="username">
         <el-input
           v-model="loginForm.username"
@@ -217,3 +217,64 @@ export default {
   height: 38px;
 }
 </style>
+<!--<style>-->
+<!--body {-->
+<!--  margin: 0;-->
+<!--  font-family: 'Arial', sans-serif;-->
+<!--  background: url("../assets/images/login-background.jpg") no-repeat center center fixed; /* 示例图片链接，请替换为你的图片路径 */-->
+<!--  background-size: cover;-->
+<!--  height: 100vh;-->
+<!--  display: flex;-->
+<!--  align-items: center;-->
+<!--  justify-content: center; /* 将登录框放置在页面中央 */-->
+<!--}-->
+
+<!--.login-container {-->
+<!--  background-color: rgba(255, 255, 255, 0.5); /* 使用半透明的白色背景 */-->
+<!--  padding: 20px;-->
+<!--  border-radius: 8px;-->
+<!--  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);-->
+<!--  width: 300px;-->
+<!--  text-align: center;-->
+<!--  margin-left: 50%;-->
+<!--}-->
+
+<!--.login-container h2 {-->
+<!--  color: #333;-->
+<!--}-->
+
+<!--.login-form {-->
+<!--  margin-top: 20px;-->
+<!--}-->
+
+<!--.form-group {-->
+<!--  margin-bottom: 15px;-->
+<!--}-->
+
+<!--label {-->
+<!--  display: block;-->
+<!--  margin-bottom: 8px;-->
+<!--  color: #555;-->
+<!--}-->
+
+<!--input {-->
+<!--  width: 100%;-->
+<!--  padding: 10px;-->
+<!--  border: 1px solid #ccc;-->
+<!--  border-radius: 4px;-->
+<!--  box-sizing: border-box;-->
+<!--}-->
+
+<!--button {-->
+<!--  background-color: #4caf50;-->
+<!--  color: #fff;-->
+<!--  padding: 10px 15px;-->
+<!--  border: none;-->
+<!--  border-radius: 4px;-->
+<!--  cursor: pointer;-->
+<!--}-->
+
+<!--button:hover {-->
+<!--  background-color: #45a049;-->
+<!--}-->
+<!--</style>-->
